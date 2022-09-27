@@ -9,7 +9,7 @@ function Main(props){
 
   // const URL = "http://localhost:4000/people/";
 
-  const URL = "https://mern-stack-10.herokuapp.com/"
+  const URL = "https://mern-stack-10.herokuapp.com/people/"
 
   const getPeople = async () => {
     const response = await fetch(URL);
